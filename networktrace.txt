@@ -1,0 +1,38 @@
+No.     Time    Source                Destination           Protocol Length Info 
+  60875 35.39   P-CSCF-CORE-911(FUT)  ilscha04-scscf-01.usaims.com SIP/SDP  646    Request: INVITE sip:6082280999@usaims.com | 
+
+Frame 60875: 646 bytes on wire (5168 bits), 646 bytes captured (5168 bits)
+Ethernet II, Src: Ericsson_61:c0:2b (04:4e:06:61:c0:2b), Dst: All-HSRP-routers_dd (00:00:0c:07:ac:dd)
+802.1Q Virtual LAN, PRI: 0, CFI: 0, ID: 221
+Internet Protocol Version 4, Src: P-CSCF-CORE-911(FUT) (10.172.0.132), Dst: ilscha04-scscf-01.usaims.com (10.172.0.18)
+User Datagram Protocol, Src Port: sip (5060), Dst Port: sip (5060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:6082280999@usaims.com SIP/2.0
+    Message Header
+        Max-Forwards: 69
+        Via: SIP/2.0/UDP 10.172.0.132:5060;branch=z9hG4bKg3Zqkv7i7qg9m7o5nglj6v6nb3m8v7nzb
+        Via: SIP/2.0/UDP [2600:2204:4800:363::2]:5060;branch=z9hG4bK4086603484smg;transport=UDP
+        To: <sip:6082280999@usaims.com>
+        From: <sip:+18152430119@usaims.com>;tag=h7g4Esbg_4253294533
+        Call-ID: 850658906@2600:2204:4800:363::2
+        CSeq: 1 INVITE
+        Contact: <sip:+18152430119@[2600:2204:4800:363::2]:5060;EriBindingId=102964;eribind-generated-at=10.172.0.132>;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel";video
+        Route: <sip:3Zqkv7%0Absaaaaaabqac1mMKiTtxmaaahPabcltWaqI08@ilscha04-scscf-01.usaims.com:5060;lr;orig>
+        Record-Route: <sip:10.172.0.132;transport=udp;lr>
+        Accept-Contact: *;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        Min-Se: 900
+        P-Access-Network-Info: 3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=31158013002987c03
+        P-Asserted-Identity: <sip:+18152430119@usaims.com>
+        P-Charging-Vector: icid-value=ilscha04-sbg-01.usaims.com-1436-548280-419741;icid-generated-at=ilscha04-sbg-01.usaims.com
+        P-Visited-Network-ID: usaims.com
+        P-Early-Media: supported
+        Session-Expires: 1800;refresher=uac
+        Supported: timer
+        Supported: 100rel
+        User-Agent: SAMSUNG IMS 5.0
+        Content-Type: application/sdp
+        Content-Length: 661
+        Allow: INVITE,ACK,OPTIONS,CANCEL,BYE,UPDATE,INFO,REFER,NOTIFY,MESSAGE,PRACK
+        Accept: application/sdp,application/3gpp-ims+xml
+    Message Body
+        Session Description Protocol
